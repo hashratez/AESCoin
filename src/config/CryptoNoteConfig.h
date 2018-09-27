@@ -238,16 +238,8 @@ const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
 };
 
 const char* const SEED_NODES[] = {
-  "node1.aescoin.io", //node1
-  "node2.aescoin.io", //node2
-  "node3.aescoin.io", //node3
-  "lax1.aescoin.io", //lax1
-  "lax2.aescoin.io", //lax2
-  "dfw1.aescoin.io", //dfw1
-  "dfw2.aescoin.io", //dfw2
-  "ord1.aescoin.io", //ord1
-  "ord2.aescoin.io", //ord2
-  "ny1.aescoin.io", //ny1
-  "ny2.aescoin.io", //ny2  
+  "node1.aescoin.io:18111", //node1
+  "node2.aescoin.io:18111", //node2
+  "node3.aescoin.io:18111", //node3  
 };
 } // CryptoNote
