@@ -28,7 +28,7 @@ sudo apt-get install git
 ```
 5. Git the package
 ```
-git clone -b master --single-branch https://github.com/hashratez/AEScoin
+git clone -b master --single-branch https://github.com/hashratez/aescoin
 ```
 6. A new directory will be created for you install "aescoin"
 ```
