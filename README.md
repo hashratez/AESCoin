@@ -30,9 +30,9 @@ sudo apt-get install git
 ```
 git clone -b master --single-branch https://github.com/hashratez/AEScoin
 ```
-6. A new directory will be created for you install "AEScoin"
+6. A new directory will be created for you install "aescoin"
 ```
-cd AEScoin
+cd aescoin
 ```
 ```
 mkdir build && cd $_
