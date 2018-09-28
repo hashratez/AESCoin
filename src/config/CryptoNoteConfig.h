@@ -85,13 +85,13 @@ const size_t   CRYPTONOTE_DISPLAY_DECIMAL_POINT              = 4;
 const uint64_t MINIMUM_FEE                                   = UINT64_C(10);
 
 const uint64_t MINIMUM_MIXIN_V1                              = 0;
-const uint64_t MAXIMUM_MIXIN_V1                              = 3;
+const uint64_t MAXIMUM_MIXIN_V1                              = 5;
 
 const uint64_t MINIMUM_MIXIN_V2                              = 3;
-const uint64_t MAXIMUM_MIXIN_V2                              = 3;
+const uint64_t MAXIMUM_MIXIN_V2                              = 5;
 
 const uint64_t MINIMUM_MIXIN_V3                              = 3;
-const uint64_t MAXIMUM_MIXIN_V3                              = 3;
+const uint64_t MAXIMUM_MIXIN_V3                              = 5;
 
 /* The heights to activate the mixin limits at */
 const uint32_t MIXIN_LIMITS_V1_HEIGHT                        = 100;
