@@ -62,7 +62,7 @@ namespace WalletConfig
     const uint64_t minimumFee = CryptoNote::parameters::MINIMUM_FEE;
 
     /* The minimum amount allowed to be sent - usually 1 (in ATOMIC units!) */
-    const uint64_t minimumSend = 10;
+    const uint64_t minimumSend = 100;
 
     /* Is a mixin of zero disabled on your network? */
     const bool mixinZeroDisabled = false;
