@@ -85,18 +85,18 @@ const size_t   CRYPTONOTE_DISPLAY_DECIMAL_POINT              = 4;
 const uint64_t MINIMUM_FEE                                   = UINT64_C(100);
 
 const uint64_t MINIMUM_MIXIN_V1                              = 0;
-const uint64_t MAXIMUM_MIXIN_V1                              = 3;
+const uint64_t MAXIMUM_MIXIN_V1                              = 5;
 
 const uint64_t MINIMUM_MIXIN_V2                              = 1;
-const uint64_t MAXIMUM_MIXIN_V2                              = 3;
+const uint64_t MAXIMUM_MIXIN_V2                              = 5;
 
 const uint64_t MINIMUM_MIXIN_V3                              = 3;
 const uint64_t MAXIMUM_MIXIN_V3                              = 5;
 
 /* The heights to activate the mixin limits at */
-const uint32_t MIXIN_LIMITS_V1_HEIGHT                        = 10000000;
-const uint32_t MIXIN_LIMITS_V2_HEIGHT                        = 20000000;
-const uint32_t MIXIN_LIMITS_V3_HEIGHT                        = 30000000;
+const uint32_t MIXIN_LIMITS_V1_HEIGHT                        = 100000;
+const uint32_t MIXIN_LIMITS_V2_HEIGHT                        = 200000;
+const uint32_t MIXIN_LIMITS_V3_HEIGHT                        = 300000;
 
 /* The mixin to use by default with zedwallet and turtle-service */
 /* DEFAULT_MIXIN_V0 is the mixin used before MIXIN_LIMITS_V1_HEIGHT is started */
@@ -140,9 +140,9 @@ const size_t   FUSION_TX_MIN_INPUT_COUNT                     = 12;
 const size_t   FUSION_TX_MIN_IN_OUT_COUNT_RATIO              = 4;
 
 const uint32_t KEY_IMAGE_CHECKING_BLOCK_INDEX                = 0;
-const uint32_t UPGRADE_HEIGHT_V2                             = 10;
-const uint32_t UPGRADE_HEIGHT_V3                             = 50;
-const uint32_t UPGRADE_HEIGHT_V4                             = 60; // Upgrade height for CN-Lite Variant 1 switch.
+const uint32_t UPGRADE_HEIGHT_V2                             = 1;
+const uint32_t UPGRADE_HEIGHT_V3                             = 2;
+const uint32_t UPGRADE_HEIGHT_V4                             = 3; // Upgrade height for CN-Lite Variant 1 switch.
 const uint32_t UPGRADE_HEIGHT_CURRENT                        = UPGRADE_HEIGHT_V4;
 const unsigned UPGRADE_VOTING_THRESHOLD                      = 90;               // percent
 const uint32_t UPGRADE_VOTING_WINDOW                         = EXPECTED_NUMBER_OF_BLOCKS_PER_DAY;  // blocks
@@ -153,15 +153,15 @@ static_assert(UPGRADE_VOTING_WINDOW > 1, "Bad UPGRADE_VOTING_WINDOW");
 /* Block heights we are going to have hard forks at */
 const uint64_t FORK_HEIGHTS[] =
 {
-    12000000,  // 0
-    18000000,  // 1
-    24000000,  // 2
-    30000000,  // 3
-    36000000,  // 4
-    42000000,  // 5
-    48000000,  // 6
-    54000000,  // 7
-    60000000,  // 8
+    259200,  // 0
+    518400,  // 1
+    777600,  // 2
+    1036800,  // 3
+    1396000,  // 4
+    1555200,  // 5
+    1814400,  // 6
+    2073600,  // 7
+    2332800,  // 8
 };
 
 /* MAKE SURE TO UPDATE THIS VALUE WITH EVERY MAJOR RELEASE BEFORE A FORK */
