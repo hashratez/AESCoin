@@ -241,7 +241,7 @@ const char* const SEED_NODES[] = {
   "lax.aescoin.io:18111", //LosAngeles
   "dfw.aescoin.io:18111", //Dallas
   "ord.aescoin.io:18111", //Chicago
-  "buf.aescoin.io:18111", //Buffalo
+  "buf.aescoin.io:18111", //NewYork
   "lhr.aescoin.io:18111", //London 
 };
 } // CryptoNote
